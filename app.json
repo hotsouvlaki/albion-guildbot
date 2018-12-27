@@ -1,0 +1,51 @@
+{
+  "name": "albion-guildbot",
+  "scripts": {
+  },
+  "env": {
+    "ALBION_ALLIANCE": {
+      "required": true
+    },
+    "ALBION_FEED_CHANNEL_ID": {
+      "required": true
+    },
+    "ALBION_GUILDS": {
+      "required": true
+    },
+    "ALBION_STATUS_CHANNEL_ID": {
+      "required": true
+    },
+    "alliance": {
+      "required": true
+    },
+    "DISCORD_TOKEN": {
+      "required": true
+    },
+    "feedChannelId": {
+      "required": true
+    },
+    "guilds": {
+      "required": true
+    },
+    "statusChannelId": {
+      "required": true
+    },
+    "token": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "stack": "heroku-18",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
